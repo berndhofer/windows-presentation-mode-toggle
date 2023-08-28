@@ -23,6 +23,12 @@ A simple GUI tool to toggle the Windows Presentation Mode. Created by Bernd Hofe
    ```powershell
    ps2exe .\presentation.ps1 .\presentation.exe -noConsole -icon "presentation.ico"
    ```
+   
+   > **Note**: If you encounter the error “cannot be loaded because running scripts is disabled on this system“, set the execution policy with the following command: 
+   > ```powershell
+   > Set-ExecutionPolicy RemoteSigned
+   > ```
+   > Use at your own risk.
 
 ## License
 
